@@ -1,0 +1,380 @@
+{
+  "brandName": "Innovation Shield",
+  "logoAlt": "Innovation Shield Logo",
+
+  "program": "National Conference",
+  "heroTitle": "National Innovation Shield Conference",
+  "heroSubtitle": "Ideation and innovation for crisis management, passive defense, and social resilience.",
+
+  "ctaStart": "Submit Idea",
+  "ctaTracks": "View Tracks",
+
+  "nav": {
+    "tracks": "Tracks",
+    "committee": "Conference Secretariat",
+    "timeline": "Timeline",
+    "resources": "Resources",
+    "contact": "Contact",
+    "account": "Account",
+    "login": "Login",
+    "signup": "Sign Up",
+    "brandTitle": "National Innovation Shield Conference"
+  },
+
+  "common": {
+    "logout": "Log out",
+    "language": "Language",
+    "english": "English",
+    "persian": "Persian",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+
+  "adminMenu": {
+    "dashboard": "Dashboard",
+    "ideas": "Ideas",
+    "judges": "Judges",
+    "assignments": "Assignments",
+    "ranking": "Project Ranking",
+    "users": "Users"
+  },
+
+  "countdown": {
+    "title": "Submission Deadline",
+    "tip": "Do not miss important dates.",
+    "seeTimeline": "See full timeline",
+    "submission": "Idea submission deadline",
+    "review": "Review and judging",
+    "results": "Final judging & announcement",
+    "closing": "Closing Ceremony"
+  },
+
+  "timer": {
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "closed": "Closed"
+  },
+
+  "tracksCard": {
+    "title": "Tracks",
+    "text": "Explore tracks and choose the best category."
+  },
+
+  "submitCard": {
+    "title": "Submit Idea",
+    "text": "Fill out the form and upload your proposal.",
+    "start": "Start Submission",
+    "template": "Download Template"
+  },
+
+  "committeeCard": {
+    "title": "Conference Secretariat",
+    "text": "Meet the conference secretariat."
+  },
+
+  "timeline": {
+    "title": "Conference Timeline",
+    "item": {
+      "submission": "Idea Submission Period",
+      "review": "Review and Judging",
+      "results": "Results Announcement"
+    }
+  },
+
+  "resources": "Resources",
+  "resourcesPdf": "Call for Proposals (PDF)",
+  "resourcesDoc": "Idea Template (DOCX)",
+  "resourcesZip": "Track Overview Package (ZIP)",
+
+  "contact": "Contact",
+  "support": "Support",
+  "messageUs": "Message us",
+
+  "awards": {
+    "title": "Awards & Support",
+    "items": [
+      "Major financial support",
+      "Top team prize",
+      "Innovation awards",
+      "National networking",
+      "Media support",
+      "Acceleration opportunities"
+    ]
+  },
+
+  "buttons": {
+    "seeAll": "See All",
+    "exploreTrack": "Explore Tracks",
+    "viewIdea": "Details",
+    "edit": "Edit",
+    "downloadPdf": "Download PDF",
+    "csv": "CSV"
+  },
+
+  "tracksPage": {
+    "title": "Conference Tracks",
+    "subtitle": "Explore the tracks and select the best fit for your idea.",
+    "searchPh": "Search tracks..."
+  },
+
+  "tracks": {
+    "defense": {
+      "title": "Enhancing Defensive Capacity in Emergencies",
+      "desc": "Innovative solutions to strengthen national resilience and reduce vulnerability in crises and unexpected threats.",
+      "text": "..."
+    },
+    "cyberDefense": {
+      "title": "Cyber Defense Innovation (Active & Passive)",
+      "desc": "Development of advanced cybersecurity and defense systems for hybrid threats and complex attacks.",
+      "text": "..."
+    },
+    "aiInCrisis": {
+      "title": "AI Applications in Crisis Management",
+      "desc": "Using AI and machine learning to monitor, analyze, and predict crises for faster response and decision-making.",
+      "text": "..."
+    },
+    "crisisSupport": {
+      "title": "Emergency Support & Services (Food, Shelter, Medical & Relief)",
+      "desc": "Rapid support models, emergency logistics, medical services, and supply chain innovations.",
+      "text": "..."
+    },
+    "dataParticipation": {
+      "title": "Data-Driven Crisis Management & Public Participation",
+      "desc": "Platforms enabling big-data crisis monitoring, public reporting, and transparent decision-making.",
+      "text": "..."
+    },
+    "volunteerNetwork": {
+      "title": "Volunteer Network & Social Support Management",
+      "desc": "Systems for organizing volunteers and coordinating social, psychological, and humanitarian support.",
+      "text": "..."
+    }
+  },
+
+  "auth": {
+    "signup": "Sign Up",
+    "signupSub": "Create an account to continue",
+    "signupSuccess": "Registration successful. Welcome!",
+    "emailLabel": "Email",
+    "password": "Password",
+    "toLogin": "Login",
+    "nameLabel": "Full name",
+
+    "login": "Login",
+    "loginSub": "Enter your credentials to continue",
+    "loginSuccess": "Login successful. Welcome!",
+    "idLabel": "Email or phone number",
+    "toSignup": "Sign up",
+
+    "errors": {
+      "required": "This field is required",
+      "invalidEmail": "Enter a valid email",
+      "minPassLength": "Password must be at least 6 characters",
+      "server": "An error occurred. Try again.",
+      "invalidCredentials": "Invalid email/phone or password"
+    }
+  },
+
+  "submit": {
+    "title": "Submit Idea",
+    "submitterName": "Full Name",
+    "contactEmail": "Contact Email",
+    "contactPhone": "Phone Number",
+    "track": "Track",
+    "ideaTitle": "Idea Title",
+    "executiveSummary": "Executive Summary",
+    "file": "File 1 (PDF)",
+    "file2": "File 2 (Word)",
+    "uploadFile": "Upload File",
+    "teamMembers": "Team Members",
+    "addMember": "Add Member",
+    "send": "Submit",
+    "sending": "Submitting...",
+
+    "errors": {
+      "fileRequired": "Please upload your proposal.",
+      "file2Required": "Please upload the second required file.",
+      "fileType": "Only PDF or Word files are allowed.",
+      "fileSize": "File size must be under 50MB.",
+      "submitterName": "Please enter your full name.",
+      "phone": "Please enter a phone number.",
+      "phoneValid": "Enter a valid phone number.",
+      "email": "Please enter an email.",
+      "emailValid": "Enter a valid email.",
+      "track": "Please select a track.",
+      "title": "Please enter the idea title.",
+      "summary": "Please enter the executive summary.",
+      "summaryLength": "Summary must be at least 50 characters.",
+      "submitFailed": "Submission failed. Try again."
+    },
+
+    "success": {
+      "title": "Idea Successfully Submitted!",
+      "text": "Thank you for your submission. We will contact you after review.",
+      "back": "Back to Account"
+    },
+
+    "tracks": {
+      "placeholder": "Select track",
+      "defense": "Enhancing Defensive Capacity in Emergencies",
+      "cyberDefense": "Cyber Defense Innovation (Active & Passive)",
+      "aiInCrisis": "AI in Crisis Management",
+      "crisisSupport": "Emergency Support Services",
+      "dataParticipation": "Data & Public Participation",
+      "volunteerNetwork": "Volunteer & Social Support Management"
+    }
+  },
+
+  "committee": {
+    "title": "Conference Secretariat",
+    "text": "Meet the jury and advisory committee.",
+    "seeAll": "See All",
+
+    "member1": {
+      "name": "Dr. Rasoul Karimi",
+      "role": "Scientific Chair",
+      "affiliation": "Faculty Member, Innovation & Tech Development Center, West Mazandaran",
+      "shortBio": "Expertise: Energy optimization, AI, renewable energy systems, PhD in Mechanical Engineering.",
+      "profileUrl": "#",
+      "tags": ["Scientific Chair", "Mechanical Engineering", "Industrial Innovation", "Resilience"]
+    },
+    "member2": {
+      "name": "Commissar Rasoul Ghaderi",
+      "role": "Executive Chair",
+      "affiliation": "25 years experience in logistics & administrative operations",
+      "shortBio": "Expertise: Administrative & operational support, university lecturer",
+      "profileUrl": "#",
+      "tags": ["Executive Chair", "Management", "Logistics", "Coordination"]
+    }
+  },
+
+  "account": {
+    "title": "Account",
+    "activityTitle": "My Ideas",
+    "loadError": "Error loading data",
+    "retry": "Retry",
+    "noIdeas": "No ideas submitted yet.",
+    "submitNewIdea": "Submit New Idea",
+    "deleteIdea": "Delete Idea",
+    "confirmDelete": "Delete “{title}”? This action is irreversible.",
+    "deleteError": "Delete error: {error}",
+    "deleteFailed": "Failed to delete",
+    "track": "Track",
+    "submittedAt": "Submitted",
+    "updatedAt": "Last Updated",
+    "scoreAvg": "Average Score",
+    "submitterName": "Submitted by",
+    "contactEmail": "Email",
+    "phone": "Phone",
+    "teamMembers": "Team",
+    "file": "File",
+    "viewUploadedFile": "View Uploaded File",
+    "download": "Download"
+  },
+
+  "footer": {
+    "template": "Download Template (Word)",
+    "copyright": "© {{year}} cOOciDev, Noshahr Incubation Center, Imam Khomeini Maritime University"
+  },
+
+  "theme": {
+    "toggle": "Toggle Theme",
+    "light": "Light",
+    "dark": "Dark"
+  },
+
+  "header": {
+    "myAccount": "Account",
+    "signInOrRegister": "Login / Sign Up",
+    "seeAll": "See All",
+    "tracks": "Tracks",
+    "committee": "Secretariat",
+    "timeline": "Timeline",
+    "prize": "Awards & Support",
+    "contact": "Contact",
+    "openMenu": "Open Menu",
+    "closeMenu": "Close Menu",
+    "primaryNavigation": "Main Navigation"
+  },
+
+  "social": {
+    "whatsapp": "WhatsApp",
+    "eitaa": "Eitaa",
+    "messagingHint": "For urgent messages, use WhatsApp / Eitaa."
+  },
+
+  "contact": {
+    "title": "Contact Us",
+    "call": "Call",
+    "landline": "Landline",
+    "mobile": "Mobile",
+    "messaging": "Messaging",
+    "email": "Email"
+  },
+
+  "admin": {
+    "topbar": {
+      "title": "Admin Panel"
+    },
+    "common": {
+      "id": "ID",
+      "untitled": "Untitled"
+    },
+    "ideas": {
+      "title": "Ideas",
+      "empty": "No ideas found.",
+      "searchInIdeas": "Search in ideas",
+      "search": "Search",
+      "track": "Track",
+      "date": "Submission Date",
+      "file": "Files",
+      "submitter": "Submitter"
+    },
+    "judge": {
+      "dashboard": {
+        "title": "Judge Panel",
+        "subtitle": "Review, download and evaluate each project assigned to you.",
+        "noProjectsAssigned": "No projects assigned yet",
+        "projectsList": "Assigned Projects",
+        "project": "Project",
+        "finalScore": "Final Score",
+        "received": "Received",
+        "averageScore": "Average Score",
+        "evaluateProject": "Evaluate Project",
+        "totalScore": "Total Score",
+        "approve": "Approve",
+        "reject": "Reject",
+        "cancel": "Cancel",
+        "projectApproved": "Project approved",
+        "projectRejected": "Project rejected",
+        "failedSubmitEvaluation": "Failed to submit evaluation",
+        "failedLoadProjects": "Failed to load projects",
+        "stats": {
+          "total": "Total Projects",
+          "pending": "Pending",
+          "approved": "Approved",
+          "rejected": "Rejected"
+        },
+        "questions": {
+          "q1": "Clarity and importance of the problem",
+          "q2": "Innovation and practicality",
+          "q3": "Advantages over existing solutions in the market",
+          "q4": "Clarity in identifying target audience, market size and growth potential",
+          "q5": "Unique features that differentiate the idea from competitors",
+          "q6": "Revenue model and its transparency in attracting customers and return on investment",
+          "q7": "Clarity of product development stages from present to market launch and planning for future development",
+          "q8": "Awareness and readiness to face potential challenges and how to manage them",
+          "q9": "Transparency and comprehensiveness of presentation (clarity, content organization and ability to convey the idea to judges)",
+          "q10": "Existence of a prototype and readiness to present it to judges"
+        },
+        "status": {
+          "approved": "Approved",
+          "accepted": "Accepted",
+          "rejected": "Rejected",
+          "pending": "Pending"
+        }
+      }
+    }
+  }
+}
