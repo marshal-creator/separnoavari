@@ -32,9 +32,11 @@ export function IdeaDetailsPanel({ row, allJudges }: { row: UiAssignment; allJud
               href="#" 
               onClick={(e) => {
                 e.preventDefault();
-                const url = row.brief?.pdfUrl?.startsWith('http') 
-                  ? row.brief.pdfUrl 
-                  : `${window.location.origin}${row.brief.pdfUrl}`;
+                const pdfUrl = row.brief?.pdfUrl;
+                if (!pdfUrl) return;
+                const url = pdfUrl.startsWith('http') 
+                  ? pdfUrl 
+                  : `${window.location.origin}${pdfUrl}`;
                 window.open(url, '_blank', 'noopener,noreferrer');
               }}
             >

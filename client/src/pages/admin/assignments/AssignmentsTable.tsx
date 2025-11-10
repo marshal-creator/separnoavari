@@ -37,9 +37,11 @@ export function AssignmentsTable({ rows }: Props) {
                     href="#" 
                     onClick={(e) => {
                       e.preventDefault();
-                      const url = r.brief?.pdfUrl?.startsWith('http') 
-                        ? r.brief.pdfUrl 
-                        : `${window.location.origin}${r.brief.pdfUrl}`;
+                      const pdfUrl = r.brief?.pdfUrl;
+                      if (!pdfUrl) return;
+                      const url = pdfUrl.startsWith('http') 
+                        ? pdfUrl 
+                        : `${window.location.origin}${pdfUrl}`;
                       window.open(url, '_blank', 'noopener,noreferrer');
                     }}
                   >
