@@ -17,6 +17,7 @@ import {
 import { CheckCircleOutlined, CloseCircleOutlined, FilePdfOutlined } from "@ant-design/icons";
 import api from "../../service/api";
 import { buildFileUrl } from "../../utils/download";
+import FileViewerModal from "../../components/judges/FileViewerModal";
 
 type JudgeProject = {
   id: number;
@@ -40,6 +41,9 @@ export default function JudgeDashboard() {
   const [projects, setProjects] = useState<JudgeProject[]>([]);
   const [loading, setLoading] = useState(true);
   const [activeProjectId, setActiveProjectId] = useState<number | null>(null);
+  const [viewerFileUrl, setViewerFileUrl] = useState<string | null>(null);
+  const [viewerFileName, setViewerFileName] = useState<string>("");
+  const [viewerOpen, setViewerOpen] = useState(false);
   
   const QUESTIONS = useMemo(() => [
     t("admin.judge.dashboard.questions.q1"),
@@ -250,10 +254,11 @@ export default function JudgeDashboard() {
                         icon={<FilePdfOutlined />}
                         onClick={() => {
                           if (!project.pdf_url) return;
-                          const url = buildFileUrl(project.pdf_url);
-                          window.open(url, '_blank', 'noopener,noreferrer');
+                          setViewerFileUrl(project.pdf_url);
+                          setViewerFileName(fileName);
+                          setViewerOpen(true);
                         }}
-                        title={t("admin.judge.dashboard.openFile") || "Open PDF in new tab"}
+                        title={t("admin.judge.dashboard.openFile") || "View File"}
                       >
                         {fileName}
                       </Button>
@@ -333,6 +338,17 @@ export default function JudgeDashboard() {
           </Space>
         )}
       </div>
+
+      <FileViewerModal
+        open={viewerOpen}
+        onClose={() => {
+          setViewerOpen(false);
+          setViewerFileUrl(null);
+          setViewerFileName("");
+        }}
+        fileUrl={viewerFileUrl}
+        fileName={viewerFileName}
+      />
     </div>
   );
 }
